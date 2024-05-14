@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        /* Style for Buy/Sell Section */
+.bs {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; 
+    margin-top: 20px; 
+    margin-bottom: 90px;
+}
+
+/* Style for each column */
+.bs-column {
+    text-align: center; 
+}
+
+
+/* Style for bs1 container */
+.bs1 {
+    display: flex; 
+    align-items: center; 
+    border: 1px solid black; 
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    
+    margin: 10px 10px 20px 220px;
+    border-radius: 10px; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+
+/* Style for image */
+.bs1 img {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+/* Style for paragraph */
+.bs1 p {
+    margin: 0; 
+    flex: 1; 
+    word-wrap: break-word; 
+}
+
+/* Style for buttons */
+.bs-column button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #000; 
+    color: #fff; 
+    cursor: pointer; 
+    margin: auto;
+    
+}
+
+.bs-column button:hover {
+    background-color: #444; 
+}
+
+/* Crypto Section */
+.crypto {
+    background-color: #fde24f;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px;
+    text-align: center;
+}
+
+.crypto h2 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.crypto img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+    margin-top: 20px; 
+}
+
+/* Media query for responsive layout */
+@media only screen and (max-width: 768px) {
+    .crypto h2 {
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+
+    .crypto img {
+        margin-top: 10px; 
+    }
+}
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div>
+            <img class="logo" src="images/Logo.png" alt="">
+        </div>
+        <ul>
+            <li>Buy</li>
+            <li>Sell</li>
+            <li>Create an Offer</li>
+        </ul>
+        <div>
+            <button id="login">Login</button>
+            <button>Get Started</button>
+            <img src="images/Frame.png" alt="">
+        </div>
+    </nav>
+
+    <!--BAckgroundimages-->
+
+    <section class="background-section">
+        <img class="bgimg" src="images/Rectangle 1.png" alt="">
+        <div class="whitecard">
+            <h3>Find Your Offers</h3>
+            <div class="element">
+                <!-- Dropdown Menus -->
+                <div class="dropdown">
+                    <button class="button-card"><b>Currency</b></button>
+                    <div class="dropdown-content">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="button-card"><b>Buy</b></button>
+                    <div class="dropdown-content">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="button-card"><b>Payment</b></button>
+                    <div class="dropdown-content">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <button class="button-card"><b>Currency</b></button>
+                    <div class="dropdown-content">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                    </div>
+                </div>
+                
+                <button class="a1"><b>How Much</b></button>
+                
+                <button class="b1"><b>Find Offer</b></button>
+                
+            </div>
+            <!-- Button Cards -->
+        </div>
+        <button class="a3"><u>Why Zapper</u></button>
+    </section>
+    
+    
+    
+
+    <!-- Crypto Section -->
+    <section class="crypto">
+        <h2><i>Buy/Sell the favorite no Fees*</i></h2>
+        <img src="images/Frame 15.png" alt="">
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h3>Features: We think about you</h3>
+        <div class="fs">
+            <div class="feature-item">
+                <img src="images/SecureEscrow.png" alt="">
+                <h4>Secured by Escrow</h4>
+                <p>Amet minim millit non deserunt ullamco es sit dolor do amet sint</p>
+                <h4><u>Learn how our escrow works</u></h4>
+            </div>
+            <div>
+                <img src="images/NewbieFriendly.png" alt="">
+                <h4>Newbie Friendly</h4>
+                <p>Amet minim millit non deserunt ullamco es sit dolor do amet sint</p>
+                <h4><u>We always keep you in mind, See more</u></h4>
+            </div>
+            <div>
+                <img src="images/MultiplePayments.png" alt="">
+                <h4>120+ Payment Methods</h4>
+                <p>Amet minim millit non deserunt ullamco es sit dolor do amet sint</p>
+                <h4><u>Discover all Payment Methods</u></h4>
+            </div>
+        </div>
+        <button class="fbtn0">See full features</button><br><br>
+        <hr><br><br>
+    </section>
+
+<!-- Buy/Sell Section -->
+<section class="buysell">
+    <div class="bs">
+        <div class="bs-column">
+            <h3>Buy</h3>
+            <div class="bs2">
+                <img src="images/blur.png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            
+            <div class="bs2">
+                <img src="images/Component 1.png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            <div class="bs2">
+                <img src="images/Component 1 (1).png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            <button>View buy's offers</button>
+        </div>
+        <hr>
+        <div class="bs-column">
+            <h3>Sell</h3>
+            <div class="bs2">
+                <img src="images/blur.png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            
+            <div class="bs2">
+                <img src="images/Component 1.png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            <div class="bs2">
+                <img src="images/Component 1 (1).png" alt="">
+                <p>Zelle, 1+ 30,244.23 USD/BTC    $10-200$</p>
+            </div>
+            <button>View buy's offers</button>
+        </div>
+            
+    </div>
+
+
+    
+</section>
+
+
+    <!-- Buying Crypto Messages -->
+    <section class="pink">
+        <div>
+            <h1 style="font-size: 80px;">Sign up and buy or sell crypto in 5 minutes with zero commission fees</h1>
+            <button class="btn">Get started</button>
+        </div>
+    </section>
+
+    <!-- Spacio -->
+    <section class="sp">
+       <div class="sp1">
+        <div class="black">
+            <img src="images/spacio.png" alt="">
+            <div class="black1">
+                <h4 style="color: white;">Product</h4>
+                <p>Sell Bitcoin</p>
+                <p>Buy Bitcoin</p>
+                <p>Sell Ethereum</p>
+                <p>Buy Ethereum</p>
+                <p>Sell Sotana</p>
+                <p>Sell Bitcoin</p>
+                <p>Features</p>
+            </div>
+            <div class="black2">
+                <h4 style="color: white;">About Spacio</h4>
+                <p>About Us</p>
+                <p>Fees</p>
+                <p>Careers</p>
+                <p>Rewards Program</p>
+                <p>Privacy policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="black3">
+                <h4 style="color: white;">Support</h4>
+                <p>Moderators</p>
+                <p>Contact Support</p>
+                <p>FAQ</p>
+                <p>Help Center</p>
+                <p>Community</p>
+                <p>Security</p>
+                
+            </div>
+        </div>
+        <hr>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+       </div>
+    </section>
+
+
+</body>
+
+
+</html>

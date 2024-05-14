@@ -1,0 +1,571 @@
+/* Media query for responsive layout */
+@media only screen and (min-width: 768px) {
+    .whitecard {
+        width: 60%; 
+        max-width: 800px; 
+    }
+
+    .a1,
+    .b1 {
+        width: calc(33.33% - 10px); 
+        max-width: 200px; 
+    }
+    .bs1 {
+        margin: 10px; 
+    }
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar .logo {
+    width: 100px; 
+    height: auto; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px; 
+    font-weight: bold; 
+    color: #333333; 
+    cursor: pointer; 
+}
+
+.navbar ul li:hover {
+    color: #0b0736; 
+}
+
+.navbar button {
+    background-color: black; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px; 
+    cursor: pointer; 
+}
+
+.navbar button#login {
+    background-color:rgb(216, 190, 190);
+}
+
+.navbar button:hover {
+    background-color: #0e0a47; 
+}
+
+.navbar img {
+    width: 40px; 
+    margin-top: 2px;
+}
+
+/* Background Image */
+.background-section {
+    position: relative;
+    width: 100%; 
+}
+
+/* Background Image */
+.background-section {
+    position: relative;
+    width: 100%; 
+}
+
+.background-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Background Section */
+.background-section {
+    position: relative;
+    width: 100%;
+}
+
+.bgimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.whitecard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 550px; 
+}
+
+.whitecard h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dropdown {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ececec;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: calc(50% - 10px); 
+    max-width: 150px;
+    & .button-card::after {
+        content: '\25BE'; 
+        margin-left: 5px; 
+    }
+    
+   
+    
+    
+
+}
+.a1 {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #38299a;
+    color: rgb(246, 242, 242);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 350px; 
+    max-width: 100%; 
+}
+
+
+.b1{
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #00ebc7;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: calc(50% - 10px); 
+    max-width: 350px;
+    text-align: center;
+
+}
+
+.button-card {
+    padding: 10px 20px;
+    background-color: #ececec;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: calc(50% - 10px); 
+    max-width: 150px; 
+}
+
+.button-card1{
+
+        padding: 10px 20px;
+        background-color: #ececec;
+        color: black;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        width: calc(50% - 10px); 
+        max-width: 250px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media query for responsive layout */
+@media only screen and (min-width: 768px) {
+    .whitecard {
+        width: 60%; 
+        max-width: 800px; 
+    }
+
+    .a1,
+    .b1 {
+        width: calc(33.33% - 10px); 
+        max-width: 200px; 
+    }
+}
+
+
+
+
+
+/* Crypto Section */
+.crypto {
+    background-color: #fde24f;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px;
+    text-align: center;
+}
+
+.crypto h2 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.crypto img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+}
+
+/* Features Section */
+.features {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.features h3 {
+    margin-bottom: 20px;
+    padding-right: 1400px auto;
+}
+
+.fs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fs div {
+    width: 300px; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fs img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.fs h4 {
+    color: #000000;
+}
+
+.fs p {
+    color: #666666;
+}
+
+/* Buy/Sell Section */
+.buysell {
+    width: 100%;
+    padding: 20px;
+}
+
+.bs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bs-column {
+    flex-basis: 45%; 
+}
+
+.bs h3 {
+    margin-bottom: 20px;
+}
+
+.bs1,
+.bs2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Add margin between items */
+}
+
+.bs1 img,
+.bs2 img {
+    width: 60px; 
+    margin-right: 10px; 
+}
+
+/* Buying Crypto Messages */
+.pink {
+    background-color: #cfbaff;
+    color: #150333;
+    text-align: center;
+    padding: 50px;
+}
+
+.pink h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #180343;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Spacio Section */
+.sp {
+    padding: 20px;
+    background-color: black;
+    & li,p{
+        color: white;
+    }
+}
+
+.black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.black img {
+    width: 100px; 
+    margin-left: 30px;
+}
+
+.black p {
+    color: #f9f5f5;
+}
+
+.black hr {
+    margin: 20px 0;
+}
+
+/* Spacio Section */
+.sp1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.sp1 hr {
+    border-top: 1px solid rgb(196, 186, 186);
+    margin: 20px 0;
+}
+
+.sp1 p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.sp1 .black {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sp1 img {
+    width: 138px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+.sp1 .black div {
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.sp1 h4 {
+    margin-bottom: 10px;
+}
+
+
+
+/* Media query for responsive layout */
+@media only screen and (max-width: 768px) {
+    .sp1 .black {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sp1 .black div {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ede4e4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        margin-top: 20px;
+    }
+
+    .whitecard {
+        width: 90%; 
+    }
+
+    .whitecard h3 {
+        font-size: 20px; 
+    }
+
+    .dropdown,
+    .button-card,
+    .button-card1 {
+        width: calc(50% - 10px); 
+        max-width: 150px; 
+    }
+
+    .crypto h2 {
+        font-size: 24px; 
+    }
+
+    .crypto img {
+        margin-top: 10px; 
+    }
+
+    .features h3 {
+        font-size: 24px; 
+    }
+
+    .fs div {
+        width: 250px; 
+    }
+
+    .buysell {
+        padding: 10px; 
+    }
+
+    .bs {
+        flex-direction: column; 
+    }
+
+    .bs-column {
+        flex-basis: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .pink h1 {
+        font-size: 32px; 
+    }
+}
+
+/* Button */
+.fbtn0 {
+    background-color: #0b0736;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.fbtn0:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #0b0736;
+}
+
+.a3 {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    color: #0b0736;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: white solid 1px ;
+    color: white;
+}
+
+/* Media query for responsive layout */
+@media only screen and (max-width: 768px) {
+    .a3 {
+        bottom: 10px; 
+        padding: 8px 16px; 
+        position: relative; 
+        left: auto; 
+        transform: none; 
+    }
+}
+
